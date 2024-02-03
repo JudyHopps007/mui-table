@@ -14,6 +14,7 @@ import TableSortLabel from '@material-ui/core/TableSortLabel';
 
 import { getHeaders, getColumns, merge } from './utils';
 
+
 type ResolvePropType<T, TData> =
   | T
   | ((obj: { rowData: TData; column: ColumnDef<TData> }) => T | void);
